@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- CDN do Bootstrap caso seja do seu interesse utilizar o Bootstra 5, basta mudar o numero da versão do CDN-->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="arquivos/bootstrap/css/bootstrap.min.css">
+    <!--link css-->
+    <link rel="stylesheet" href="arquivos/css/style.css">
+    <script src="https://kit.fontawesome.com/347135fd92.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="arquivos/css/modal.css">
+    <link rel="stylesheet" href="arquivos/css/stylemodal.css">
+    <link rel="stylesheet" href="arquivos/css/responsive.css">
+    <link rel="stylesheet" href="arquivos/css/responsive_modal.css">
+
+
+    <title>Livraria</title>
+</head>
+
+<body>
+
+
+    <!------------------------------------------------menu-------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div id="logo" class="ml-5">
+            <a class="navbar-brand" href="index.html"><img src="arquivos/fotos/logo.png" alt=""></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav  justify-content-end mr-5">
+                <form class="form-inline my-2 my-lg-0 ml-5">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar livro" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    <a href="carrinho.html"> <i style="font-size:35px; display: inline-block; color:rgb(12, 11, 11);" class="ml-5 fas fa-cart-arrow-down"></i></a>
+                    <a href="" data-toggle="modal" data-target="#mymodal"> <i style="font-size:35px; display: inline-block; color:rgb(12, 11, 11);" class="ml-3 fas fa-user-circle"></i></a>
+                </form>
+
+
+            </ul>
+
+        </div>
+    </nav>
+    <!------------------------------------------------ FIM MENU---------------------------------------------------------------->
+
+
+    <!-------------------------------------------------CARROSSEL--------------------------------------------------------------->
+
+    <div class="container" id="carrossel">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="">
+                            <img src="arquivos/fotos/1106_tv_para-quem-ama-livros-boxes.webp" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img src="arquivos/fotos/3101_tv_turma-da-monica.webp" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img src="arquivos/fotos/1106_tv_para-quem-ama-livros-boxes (1).webp" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------FIM CARROSSEL--------------------------------------------------------------->
+
+
+    <!-------------------------------------------------CATEGORIAS------------------------------------------------------->
+    <div class="container">
+        <div class="row">
+            <div class="categorias">
+                <div class="item">
+                    <img class="rounded-circle" src="arquivos/fotos/livros-hover-c-legenda-v4.webp" alt="">
+                    <h4>titulo</h4>
+                </div>
+                <div class="item">
+                    <img class="rounded-circle" src="arquivos/fotos/livros-hover-c-legenda-v4.webp" alt="">
+                    <h4>titulo</h4>
+                </div>
+                <div class="item">
+                    <img class="rounded-circle" src="arquivos/fotos/livros-hover-c-legenda-v4.webp" alt="">
+                    <h4>titulo</h4>
+                </div>
+                <div class="item">
+                    <img class="rounded-circle" src="arquivos/fotos/livros-hover-c-legenda-v4.webp" alt="">
+                    <h4>titulo</h4>
+                </div>
+                <div class="item">
+                    <img class="rounded-circle" src="arquivos/fotos/livros-hover-c-legenda-v4.webp" alt="">
+                    <h4>titulo</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------FIM CATEGORIAS------------------------------------------------------->
+
+
+    <!-------------------------------------------------EDITORAS------------------------------------------------------->
+
+    <div class="container ">
+        <div class="row">
+            <div class="categorias">
+                <a href="">
+                    <div class="item border shadow p-3"><img src="arquivos/fotos/sextante.png" alt=""></div>
+                </a>
+                <a href="">
+                    <div class="item border shadow p-3"><img src="arquivos/fotos/sextante.png" alt=""></div>
+                </a>
+                <a href="">
+                    <div class="item border shadow p-3"><img src="arquivos/fotos/sextante.png" alt=""></div>
+                </a>
+                <a href="">
+                    <div class="item border shadow p-3"><img src="arquivos/fotos/sextante.png" alt=""></div>
+                </a>
+                <a href="">
+                    <div class="item border shadow p-3"><img src="arquivos/fotos/sextante.png" alt=""></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------FIM EDITORAS------------------------------------------------------->
+
+    <!-------------------------------------------------TEXTO------------------------------------------------------->
+
+    <div class="container">
+        <div class="row">
+            <div id="bloco-texto">
+                <div class="texto">
+                    <p><i class="fas fa-quote-left mr-1"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, id. Beatae aliquid modi labore repellendus veniam quas, in autem, error perspiciatis magnam illo aliquam sed minus ut eius. Optio,
+                        fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, id.<i class="fas fa-quote-right ml-1"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------TEXTO------------------------------------------------------->
+
+
+
+    <!-------------------------------------------------fORM------------------------------------------------------->
+    <div class="container mt-3 ">
+        <div class="row justify-content-center">
+            <div id="cadastro-email">
+                <h6>Faça seu cadastro para receber as melhores ofertas da livraria universitária antes de todo mundo</h6>
+                <form class="form-group" action="">
+                    <input class="form-contro" type="email" name="" id="email" placeholder="Seu email">
+                    <button class="btn btn-warning ml-3" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------fORM------------------------------------------------------->
+
+
+
+
+
+
+
+    <!-------------------------------------------------fOOTER------------------------------------------------------->
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <ul class="list-unstyled three-column">
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                    </ul>
+                    <ul class="list-unstyled socila-list">
+                        <a href="">
+                            <li><i class="fab fa-facebook-square"></i></li>
+                            <a href=""></a>
+                            <a href="">
+                                <li><i class="fab fa-instagram-square"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-twitter-square"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fas fa-envelope-square"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-whatsapp-square"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-linkedin"></i></li>
+                            </a>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="media">
+                        <a href="#" class="pull-left">
+                            <img src="http://placehold.it/64x64" alt="" class="media-object" />
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Programming</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="media">
+                        <a href="#" class="pull-left">
+                            <img src="http://placehold.it/64x64" alt="" class="media-object" />
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Coding</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="media">
+                        <a href="#" class="pull-left">
+                            <img src="http://placehold.it/64x64" alt="" class="media-object" />
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Web Sesign</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <img class="img-thumbnail" src="arquivos/fotos/pagamento.png" alt="" />
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright text-center">
+            </a> Copyright &copy; 2020 <span><a href="">Livraria universitária</a></span>
+        </div>
+    </footer>
+
+    <!-------------------------------------------------fOOTER------------------------------------------------------->
+
+
+    <!-------------------------------------------------MODAL------------------------------------------------------->
+    <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-notify modal-warning" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" class="white-text">&times;</span>
+      </button>
+                </div>
+                <div class="form-structor">
+                    <div class="signup">
+                        <h2 class="form-title" id="signup"><span>ou</span>Cadastro</h2>
+                        <div class="form-holder">
+                            <input type="text" class="input" placeholder="Nome" />
+                            <input type="email" class="input" placeholder="Email" />
+                            <input type="password" class="input" placeholder="Senha" />
+                        </div>
+                        <button class="submit-btn">Cadastrar</button>
+                    </div>
+                    <div class="login slide-up">
+                        <div class="center">
+                            <h2 class="form-title" id="login"><span>ou</span>Entrar</h2>
+                            <div class="form-holder">
+                                <input type="email" class="input" placeholder="Email" />
+                                <input type="password" class="input" placeholder="Senha" />
+                            </div>
+                            <button class="submit-btn">Entrar</button>
+                            <a href="dadoscliente.html" class="meusdados">Meus Dados</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="arquivos/js/script.js"></script>
+
+    <!-------------------------------------------------MODAL------------------------------------------------------->
+
+
+    <!-- JavaScript -->
+    <!-- CDN do Bootstrap.js caso seja do seu interesse-->
+    <!--
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    -->
+
+</body>
+
+</html>

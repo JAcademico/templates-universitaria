@@ -1,0 +1,181 @@
+#foto-produto {
+    height: 350px;
+    width: 220px;
+}
+
+#bloco-produto {
+    margin-top: 30px;
+}
+
+#titulo-livro {
+    margin-bottom: 15pxpx;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(54, 52, 52);
+    width: 350px;
+    word-break: break-all;
+}
+
+#autor-livro {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: rgb(156, 156, 156);
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+
+#editora-livro {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: rgb(156, 156, 156);
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+
+#valor-livro {
+    margin-bottom: 18px;
+    font-size: 45px;
+    color: #4D4D4D;
+}
+
+#parcelas-livro {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #4D4D4D;
+    font-family: Roboto, sans-serif;
+}
+
+#bloco-frete {
+    width: 100%;
+    height: 90px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+}
+
+#disponiveis {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: rgb(156, 156, 156);
+    font-size: 10px;
+}
+
+#bloco-quantidade {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#quantidade {
+    color: #8E8080;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+#button-carrinho {
+    width: 228px;
+    background-color: rgb(81, 207, 31);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#titulo-frete-calc {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    padding-left: 10px;
+    margin-top: 0;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #8E8080;
+}
+
+#frete-input {
+    padding-left: 0;
+    margin-left: 17px;
+    padding-top: 0px;
+    /*line-height: px;*/
+    padding-bottom: 0;
+    margin-top: 5px;
+}
+
+#button-frete {
+    width: 97px;
+    margin-left: 15px;
+    background-color: #B9B8B8;
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    padding-top: 0;
+    height: 35px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: -5px;
+    outline: none;
+}
+
+#button-frete:hover {
+    background-color: #ffc905;
+}
+
+.bloco-comentario {
+    width: 100%;
+}
+
+.info-comentario {
+    width: 90%;
+}
+
+.info-comentario>p {
+    margin-left: 40px;
+    font-size: 13px;
+    text-align: justify;
+    font-family: Roboto, sans-serif;
+}
+
+.nome-foto {
+    width: 100%;
+    height: 43px;
+    display: flex;
+}
+
+.nome-foto>img {
+    width: 40px;
+    height: 40px;
+}
+
+.nome-foto>p {
+    line-height: 40px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.bloco-comentario-envio {
+    width: 100%;
+}
+
+.info-comentario>form>textarea {
+    width: 90%;
+    height: 70px;
+    margin-left: 40px;
+}
+
+.info-comentario>form>button {
+    margin-left: 40px;
+    color: white;
+    font-size: 17px;
+    height: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+
+/* Telefones em paisagem a tablet em retrato */
+
+@media (max-width: 767px) {
+    #foto-produto {
+        height: 175px;
+        width: 125px;
+    }
+}

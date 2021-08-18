@@ -1,0 +1,38 @@
+/* Telefones em paisagem e abaixo */
+
+@media (max-width: 480px) {
+    html,
+    body {
+        width: 100vw;
+    }
+    .form-structor {
+        height: calc(100vh - 6rem);
+        width: calc(100% - 6rem);
+        margin-top: -16%;
+    }
+}
+
+
+/* Telefones em paisagem a tablet em retrato */
+
+@media (max-width: 767px) {
+    html,
+    body {
+        width: 100vw;
+    }
+    .form-structor {
+        height: calc(100vh - 6rem);
+        width: calc(100% - 6rem);
+        margin-top: -16%;
+    }
+}
+
+
+/* Tablet em retrato a paisagem e desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {}
+
+
+/* Desktop grande */
+
+@media (min-width: 1200px) {}

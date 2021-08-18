@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>produto</title>
+    <link rel="stylesheet" href="arquivos/css/style.css">
+    <link rel="stylesheet" href="arquivos/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="arquivos/css/produto.css">
+    <link rel="stylesheet" href="arquivos/css/modal.css">
+    <link rel="stylesheet" href="arquivos/css/carro.css">
+    <link rel="stylesheet" href="arquivos/css/responsive.css">
+    <link rel="stylesheet" href="arquivos/css/responsive_modal.css">
+    <link rel="stylesheet" type="text/css" href="cliente.css">
+</head>
+
+<body class="">
+
+    <!------------------------------------------------menu-------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div id="logo" class="ml-5">
+            <a class="navbar-brand" href="index.html"><img src="arquivos/fotos/logo.png" alt=""></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav  justify-content-end mr-5">
+                <form class="form-inline my-2 my-lg-0 ml-5">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar livro" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    <a href="carrinho.html"> <i style="font-size:35px; display: inline-block; color:rgb(12, 11, 11);" class="ml-5 fas fa-cart-arrow-down"></i></a>
+                    <a href="" data-toggle="modal" data-target="#mymodal"> <i style="font-size:35px; display: inline-block; color:rgb(12, 11, 11);" class="ml-3 fas fa-user-circle"></i></a>
+                </form>
+
+
+            </ul>
+
+        </div>
+    </nav>
+    <!------------------------------------------------ FIM MENU---------------------------------------------------------------->
+
+
+
+    <!------------------------------------------------ BLOCO-PRODUTO---------------------------------------------------------------->
+    <div class="container">
+        <div class="row text-center d-flex d-sm-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-lg-center justify-content-xl-center" id="bloco-produto">
+            <div class="col-auto col-md-5 d-md-flex d-lg-flex d-xl-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-xl-center" style="width: 380px;margin-bottom: 30px;"><img class="d-md-flex align-items-md-center" id="foto-produto" src="arquivos/fotos/livro.png"></div>
+            <div class="col-auto" style="width: 380px;margin-left: 15px;">
+                <h1 class="text-left" id="titulo-livro">Livro - F*deu Geral : Um Livro<br>Sobre Esperança?&nbsp;<br></h1>
+                <p class="text-left" id="autor-livro">Autor: Manson,Mark</p>
+                <p class="text-left" id="editora-livro">Editora: Intrínseca</p>
+                <p class="text-left" id="disponiveis">(9 disponíveis)</p>
+                <h1 class="text-left" id="valor-livro">R$ 36,90</h1>
+                <h4 class="text-left" id="parcelas-livro">Em até 1x de R$ 36,90 sem juros</h4>
+                <div class="d-flex" id="bloco-quantidade"><span id="quantidade" class="mr-2">Quantidade:</span><select class="d-xl-flex align-items-xl-start">
+                <optgroup label="">
+                  <option value="1" selected="">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="3">5</option>
+                  <option value="4">6</option>
+                </optgroup>
+              </select>
+                </div>
+                <button class="btn btn-light d-flex d-md-flex d-lg-flex d-xl-flex align-items-start align-items-md-start align-items-lg-start justify-content-xl-center align-items-xl-start" id="button-carrinho" type="button">Adicionar ao carrinho</button>
+                <div class="text-left" id="bloco-frete">
+                    <h5 class="text-left ml-2" id="titulo-frete-calc">Calcular Frete</h5><input type="text" id="frete-input" placeholder="CEP"><button class="btn btn-light text-center" id="button-frete" type="submit">Calcular</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------ BLOCO-PRODUTO---------------------------------------------------------------->
+
+
+
+
+
+    <!------------------------------------------------ BLOCO-sINOPSE---------------------------------------------------------------->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Sinopse</h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Vivemos em uma época interessante. Materialmente, nunca estivemos melhor - temos mais liberdade, mais saúde e mais riqueza do que em qualquer momento da história da humanidade. No entanto, tudo ao redor parece terrivelmente f*dido:
+                            aquecimento global, governantes horrorosos, economia em crise e todos constantemente ofendidos nas redes sociais. Temos acesso a tecnologia, educação e comunicação de maneiras que nossos ancestrais jamais sonhariam e, mesmo
+                            assim, sentimos essa desesperança esmagadora. O que está acontecendo, afinal?</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------ BLOCO-sINOPSE---------------------------------------------------------------->
+
+
+
+    <!------------------------------------------------ BLOCO-INFO---------------------------------------------------------------->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <table class="table table-striped">
+                    <thead>
+                        <h3>ficha técnica</h3>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Código:</th>
+                                <td>54653485</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Código de barras:</th>
+                                <td>65465135135</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Autor:</th>
+                                <td>Manson,Mark</td>
+                            </tr>
+                            <th scope="row">Editora:</th>
+                            <td>Intrínseca</td>
+                            </tr>
+                            <th scope="row">Tipo:</th>
+                            <td>Fisico</td>
+                            </tr>
+                            <th scope="row">Paginas:</th>
+                            <td>280</td>
+                            </tr>
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------ BLOCO-INFO---------------------------------------------------------------->
+
+
+    <!------------------------------------------------ BLOCO-COMENTARIO---------------------------------------------------------------->
+
+    <div class="container mt-5">
+        <div class="row">
+            <h4 class="mb-4">Comentarios:</h4>
+            <div class="bloco-comentario">
+                <div class="info-comentario">
+                    <div class="nome-foto">
+                        <img src="arquivos/fotos/icone-perfil.png" alt="">
+                        <p>José Neto</p>
+                    </div>
+                    <p class="cometario">gostei chega rápido, o livro é muito bom</p>
+                </div>
+            </div>
+
+            <div class="bloco-comentario">
+                <div class="info-comentario">
+                    <div class="nome-foto">
+                        <img src="arquivos/fotos/icone-perfil.png" alt="">
+                        <p>José Neto</p>
+                    </div>
+                    <p class="cometario">gostei chega rápido, o livro é muito bom Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor esse aperiam ex praesentium, corporis ab Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quidem nam hic, quo ipsam
+                        delectus perferendis placeat ut iste nostrum minus quibusdam sit labore alias nihil officia blanditiis quis. Beatae. </p>
+                </div>
+            </div>
+
+            <div class="bloco-comentario">
+                <div class="info-comentario">
+                    <div class="nome-foto">
+                        <img src="arquivos/fotos/icone-perfil.png" alt="">
+                        <p>José Neto</p>
+                    </div>
+                    <p class="cometario">gostei chega rápido, o livro é muito bom</p>
+                </div>
+            </div>
+
+            <div class="bloco-comentario">
+                <div class="info-comentario">
+                    <div class="nome-foto">
+                        <img src="arquivos/fotos/icone-perfil.png" alt="">
+                        <p>José Neto</p>
+                    </div>
+                    <p class="cometario">gostei chega rápido, o livro é muito bom</p>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="bloco-comentario-envio">
+                <div class="info-comentario">
+                    <div class="nome-foto">
+                        <img src="arquivos/fotos/icone-perfil.png" alt="">
+                        <p>José Neto</p>
+                    </div>
+                    <form action="">
+                        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                        <button class="btn btn-warning btn-sm" type="submit">Enviar Comentario</button>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!------------------------------------------------ BLOCO-COMENTARIO---------------------------------------------------------------->
+
+
+    <!-------------------------------------------------fOOTER------------------------------------------------------->
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <ul class="list-unstyled three-column">
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                        <li>link</li>
+                    </ul>
+                    <ul class="list-unstyled socila-list">
+                        <a href="">
+                            <li><i class="fab fa-facebook-square"></i></li>
+                            <a href=""></a>
+                            <a href="">
+                                <li><i class="fab fa-instagram-square"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-twitter-square"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fas fa-envelope-square"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-whatsapp-square"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-linkedin"></i></li>
+                            </a>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-3">
+                    <div class="media">
+                        <a href="#" class="pull-left">
+                            <img src="http://placehold.it/64x64" alt="" class="media-object" />
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Programming</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="media">
+                        <a href="#" class="pull-left">
+                            <img src="http://placehold.it/64x64" alt="" class="media-object" />
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Coding</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="media">
+                        <a href="#" class="pull-left">
+                            <img src="http://placehold.it/64x64" alt="" class="media-object" />
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Web Sesign</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <img class="img-thumbnail" src="arquivos/fotos/pagamento.png" alt="" />
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright text-center">
+            </a> Copyright &copy; 2020 <span><a href="">Livraria universitária</a></span>
+        </div>
+    </footer>
+
+    <!-------------------------------------------------fOOTER------------------------------------------------------->
+
+
+    <!-------------------------------------------------MODAL------------------------------------------------------->
+    <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-notify modal-warning" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" class="white-text">&times;</span>
+      </button>
+                </div>
+                <div class="form-structor">
+                    <div class="signup">
+                        <h2 class="form-title" id="signup"><span>ou</span>Cadastro</h2>
+                        <div class="form-holder">
+                            <input type="text" class="input" placeholder="Nome" />
+                            <input type="email" class="input" placeholder="Email" />
+                            <input type="password" class="input" placeholder="Senha" />
+                        </div>
+                        <button class="submit-btn">Cadastrar</button>
+                    </div>
+                    <div class="login slide-up">
+                        <div class="center">
+                            <h2 class="form-title" id="login"><span>ou</span>Entrar</h2>
+                            <div class="form-holder">
+                                <input type="email" class="input" placeholder="Email" />
+                                <input type="password" class="input" placeholder="Senha" />
+                            </div>
+                            <button class="submit-btn">Entrar</button>´
+                            <a href="cliente.html" class="meusdados">Meus Dados</a>
+                            <a href="dadoscliente.html" class="meusdados">Meus Dados</a>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="arquivos/js/script.js"></script>
+                <!--Footer-->
+
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="arquivos/js/script.js"></script>
+
+    <!-------------------------------------------------MODAL------------------------------------------------------->
+
+
+    <script src="https://kit.fontawesome.com/347135fd92.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

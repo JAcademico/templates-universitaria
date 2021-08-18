@@ -1,0 +1,106 @@
+div {
+    /* display: flex; */
+}
+
+h11 {
+    color: red;
+}
+
+.panel-body {
+    width: 30%;
+}
+
+.panel-heading {
+    font-size: 150%;
+}
+
+.panel-warning>.panel-heading {
+    color: #fcf8e3;
+    background-color: #ffc905;
+    border-color: #faebcc;
+}
+
+.fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.form-group {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: .2rem 0;
+    width: 25rem;
+}
+
+.col-md-2 {
+    position: relative;
+    min-height: 10px;
+    padding-right: -5rem;
+    padding-left: 5rem;
+}
+
+.col-md-3 {
+    position: relative;
+    min-height: 10px;
+    padding-right: 2rem;
+    padding-left: -2rem;
+}
+
+.col-md-6 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.col-md-1 {
+    margin-top: 2rem;
+}
+
+.btn {
+    position: relative;
+    min-height: 10px;
+}
+
+.form-control .input-md {
+    margin-bottom: 5rem;
+}
+
+
+/* Telefones em paisagem e abaixo */
+
+@media (max-width: 480px) {
+    html,
+    body {
+        width: 100%;
+    }
+    .form-group {
+        width: 100%;
+    }
+    .panel-warning>.panel-heading {
+        width: 100%;
+    }
+    .panel-body {
+        width: 100%;
+    }
+}
+
+
+/* Telefones em paisagem a tablet em retrato */
+
+@media (max-width: 767px) {
+    html,
+    body {
+        width: 100%;
+    }
+    .form-group {
+        width: 100%;
+    }
+    .panel-warning>.panel-heading {
+        width: 100%;
+    }
+    .panel-body {
+        width: 100%;
+    }
+}
